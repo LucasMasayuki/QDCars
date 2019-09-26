@@ -1,0 +1,84 @@
+ul li a {
+    color: white;
+}
+
+ul li a: hover {
+    color: white;
+}
+
+.main-header {
+    background-color: #333;
+    color: white;
+}
+
+.row {
+    width: inherit;
+}
+
+.main-header .navbar {
+    padding-bottom: 0rem;
+    padding-right: 0rem;
+    padding-left: 0rem;
+}
+
+.menu-list {
+    margin-bottom: 0px;
+    padding-left: 0px;
+    width: max-content;
+}
+
+.menu-list li {
+    display: inline-block;
+}
+
+.menu-list .btn {
+    color: white;
+}
+
+.header-elem {
+    padding: 0px;
+}
+
+.header-elem {
+    text-align: center;
+}
+
+.header-elem .menu, .form-inline {
+    margin-top: 15px;
+}
+
+.search-input.form-control {
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid gray;
+    border-radius: 0px;
+    color: white;
+    font-size: 12px;
+    outline: none;
+    padding: 0;
+    width: 190px;
+}
+
+.search-icon:before {
+    content: "\f002";
+}
+
+.welcome-text,
+.primary-header-actions {
+    font-size: 14px;
+}
+
+.primary-header-actions li {
+    padding: 0px 5px;
+}
+
+.primary-header,
+.secondary-header {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.secondary-header {
+    margin-top: 20px;
+    padding-bottom: 5px;
+}
