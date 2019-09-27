@@ -6,25 +6,36 @@ ul li a: hover {
     color: white;
 }
 
+h2 {
+    font-size: 2.5rem;
+    margin: 20px 0px;
+    text-align: center;
+}
+
 .main-header {
     background-color: #333;
     color: white;
-}
-
-.row {
-    width: inherit;
-}
-
-.main-header .navbar {
     padding-bottom: 0rem;
     padding-right: 0rem;
     padding-left: 0rem;
 }
 
+.row {
+    margin-left: unset; 
+    width: inherit;
+}
+
+.nav-link {
+    font-weight: bold;
+    padding: 0;
+    padding-right: 1rem;
+    text-transform: uppercase;
+}
+
 .menu-list {
     margin-bottom: 0px;
     padding-left: 0px;
-    width: max-content;
+    width: 100%;
 }
 
 .menu-list li {
@@ -35,12 +46,30 @@ ul li a: hover {
     color: white;
 }
 
-.header-elem {
-    padding: 0px;
+.left-secondary-header-elements {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 1rem;
+}
+
+.cart-btn {
+    color: red;
+    padding: 0;
+}
+
+.cart-price-box {
+    display: grid;
+    font-size: 12px;
+    grid-template-rows: auto auto;
+    text-align: left;
 }
 
 .header-elem {
     text-align: center;
+}
+
+.header-elem .menu-list {
+    text-align: left;
 }
 
 .header-elem .menu, .form-inline {
@@ -50,7 +79,7 @@ ul li a: hover {
 .search-input.form-control {
     background: transparent;
     border: none;
-    border-bottom: 2px solid gray;
+    border-bottom: 2px solid lightgray;
     border-radius: 0px;
     color: white;
     font-size: 12px;
@@ -59,26 +88,130 @@ ul li a: hover {
     width: 190px;
 }
 
-.search-icon:before {
-    content: "\f002";
+.search-btn {
+    color: white;
+    line-height: 0.2;
+    padding: 0px;
 }
 
 .welcome-text,
 .primary-header-actions {
     font-size: 14px;
+    text-align: right;
 }
 
 .primary-header-actions li {
     padding: 0px 5px;
 }
 
-.primary-header,
 .secondary-header {
-    padding-left: 5px;
-    padding-right: 5px;
+    margin-top: 10px;
+    padding-bottom: 5px;
 }
 
-.secondary-header {
+.cars-container {
     margin-top: 20px;
-    padding-bottom: 5px;
+}
+
+.most-wanted-section {
+    border-top: 1px solid lightgray;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.product-card {
+    display: grid;
+    grid-template-rows: auto auto auto;
+    grid-gap: 1rem;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.price-box {
+    display: grid;
+    grid-template-rows: auto auto;
+}
+
+.price-box span {
+    font-size: 18px;
+}
+
+.base-price {
+    color: lightgray;
+    text-decoration: line-through;
+}
+
+.promotional-price {
+    color: #ff4700;
+    font-weight: bold;
+}
+
+.installment {
+    font-weight: bold;
+}
+
+.purchase-btn {
+    background: none;
+    border: 1px solid green;
+    color: green;
+}
+
+.news-section {
+    background-color: lightgray;
+    padding-bottom: 36px;
+}
+
+.infos-section {
+    background-color: #333;
+    padding: 20px 0px;
+}
+
+.payments-section {
+    background-color: lightgray;
+    padding: 20px 0px;
+}
+
+.addresses-section {
+    color: lightgray;
+    font-size: 12px;
+}
+
+.powered-by {
+    text-align: right;
+}
+
+.payment-methods-box {
+    display: inline-grid;
+    grid-template-columns: 0.25fr 1fr;
+}
+
+.payment-info-box {
+    display: inline-grid;
+    grid-template-columns: 0.45fr 1fr;
+}
+
+.cart-box {
+    display: inline-grid;
+    grid-template-columns: auto auto;
+}
+
+.payment-methods-box span,
+.payment-info-box span {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.payment-methods-box div {
+    display: inline-grid;
+    grid-template-columns: auto auto auto auto auto;
+}
+
+.payment-info-box > div {
+    display: inline-grid;
+    grid-template-columns: 0.45fr 1fr 1.5fr;
+}
+
+.payment-info-box div > div {
+    display: grid;
+    grid-template-rows: auto auto;
 }
