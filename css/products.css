@@ -62,8 +62,10 @@
 .offer-tag {
     background: #d41a70;
     position: absolute;
-    top: 6%;
-    right: 5%;
+    margin-right: 15px;
+    margin-top: 27px;
+    top: 0;
+    right: 0;
 }
 
 .purchase-btn i {
