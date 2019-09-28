@@ -1,0 +1,102 @@
+.main-header {
+    background-color: #333;
+    color: white;
+    padding-bottom: 0;
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.nav-link {
+    font-weight: bold;
+    padding: 0;
+    padding-right: 1rem;
+    text-transform: uppercase;
+}
+
+.menu-list .nav-item:last-of-type .nav-link {
+    padding: 0;
+}
+
+.menu-list {
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
+.menu-list li {
+    display: inline-block;
+}
+
+.menu-list .btn {
+    color: white;
+}
+
+.left-secondary-header-elements {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 1rem;
+}
+
+.cart-btn {
+    color: red;
+    padding: 0;
+}
+
+.cart-price-box {
+    color: lightgray;
+    display: grid;
+    font-size: 12px;
+    grid-template-rows: auto auto;
+    text-align: left;
+}
+
+.header-elem {
+    padding-bottom: 10px;
+    padding-top: 10px;
+    text-align: center;
+}
+
+.header-elem .menu-list {
+    text-align: left;
+}
+
+.header-elem .menu, .left-secondary-header-elements {
+    font-size: 14px;
+    margin-top: 15px;
+}
+
+.search-input.form-control {
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid lightgray;
+    border-radius: 0;
+    color: white;
+    font-size: 12px;
+    outline: none;
+    padding: 0;
+    width: 80%;
+}
+
+.primary-header a,
+.primary-header span {
+    color: lightgray;
+}
+
+.search-btn {
+    color: white;
+    line-height: 0.2;
+    padding: 0;
+}
+
+.welcome-text,
+.primary-header-actions {
+    font-size: 14px;
+    text-align: right;
+}
+
+.primary-header-actions li {
+    padding: 0 5px;
+}
+
+.secondary-header {
+    margin-top: 10px;
+}

@@ -1,0 +1,72 @@
+.product-card {
+    display: grid;
+    grid-template-rows: auto auto auto;
+    grid-gap: 1rem;
+    margin-bottom: 80px;
+    text-align: center;
+}
+
+.price-box {
+    display: grid;
+    grid-template-rows: auto auto;
+}
+
+.price-box span {
+    font-size: 18px;
+}
+
+.base-price {
+    color: lightgray;
+    text-decoration: line-through;
+}
+
+.promotional-price {
+    color: #ff0052;
+    font-weight: bold;
+}
+
+.installment {
+    font-weight: bold;
+}
+
+.purchase-btn {
+    background: none;
+    border: 1px solid green;
+    color: green;
+    vertical-align: middle;
+}
+
+.new-product-tag,
+.free-shiping-tag,
+.offer-tag {
+    background: #333;
+    color: white;
+    float: left;
+    font-size: 12px;
+    padding: 4px 6px;
+    position: relative;
+}
+
+.new-product-tag i,
+.free-shiping-tag i,
+.offer-tag i {
+    font-size: 16px;
+    vertical-align: middle;
+}
+
+.free-shiping-tag {
+    background: #1ea0a5;
+    float: right;
+}
+
+.offer-tag {
+    background: #d41a70;
+    position: absolute;
+    top: 6%;
+    right: 5%;
+}
+
+.purchase-btn i {
+    font-size: 20px;
+    vertical-align: middle;
+}
